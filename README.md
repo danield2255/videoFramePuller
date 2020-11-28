@@ -1,7 +1,7 @@
 # videoFramePuller
 A short python script to pull image frames from folders of videos. The user can set different start times, end times, and frame rates to pull images from each video based on how the video files are named. The script works really well for pulling image frames from multiple videos 
 
-The format of how imput videos should be is '{startTime}_{endTime}_{rate}'.mp4. The format of 'startTime' and 'endTime' replaces standard colons(:) with hyphens(-). This format is important to ensure all videos are treated correctly. 
+The format of how imput videos should be is '{startTime}\_{endTime}\_{rate}'.mp4. The format of 'startTime' and 'endTime' replaces standard colons(:) with hyphens(-). This format is important to ensure all videos are treated correctly. 
 
 **EX)** So if we wanted to start pulling frames at the 30 second mark in a video, stop at the 11:31 mark, and pull one frame every two seconds we would name the video '00-30_11-31_2.mp4'
 
